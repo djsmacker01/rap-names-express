@@ -49,6 +49,6 @@ async function addLike(){
         location.reload()
 
     }catch(err){
-        // console.log(err)
+        console.log(err)
     }
 }
