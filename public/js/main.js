@@ -18,7 +18,7 @@ async function deleteRapper(){
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
               'stageNameS': sName,
-              'birthNameS': bName
+            //   'birthNameS': bName
             })
           })
         const data = await response.json()
