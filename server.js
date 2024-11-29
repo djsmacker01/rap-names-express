@@ -30,6 +30,7 @@ app.get('/',(request, response)=>{
 })
 
 app.post('/addRapper', (request, response) => {
+    console.log(request)
     db.collection('rappers').insertOne({stageName: request.body.stageName,
     birthName: request.body.birthName, likes: 0})
     .then(result => {
