@@ -9,7 +9,7 @@ Array.from(thumbText).forEach((element)=>{
     element.addEventListener('click', addLike)
 })
 
-async function deleteRapper(){
+async function deleteRapper(){ 
     const sName = this.parentNode.childNodes[1].innerText
     const bName = this.parentNode.childNodes[3].innerText
     try{
